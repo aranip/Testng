@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="parameters(failed)">
+    <parameter name="emailId" value="test@yahoo.com"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="yahooLoginTest"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- parameters(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24050" started-at="2019-11-17T02:17:27Z" finished-at="2019-11-17T02:17:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24050" started-at="2019-11-17T02:17:27Z" finished-at="2019-11-17T02:17:51Z">
+      <class name="com.datadriven.HalfEbayTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="setup" is-config="true" duration-ms="5019" started-at="2019-11-16T18:17:27Z" finished-at="2019-11-16T18:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="testMethodA" duration-ms="3244" started-at="2019-11-16T18:17:32Z" data-provider="SearchProvider" finished-at="2019-11-16T18:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="testMethodA" duration-ms="3134" started-at="2019-11-16T18:17:35Z" data-provider="SearchProvider" finished-at="2019-11-16T18:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="testMethodA" duration-ms="3146" started-at="2019-11-16T18:17:38Z" data-provider="SearchProvider" finished-at="2019-11-16T18:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="testMethodB" duration-ms="3145" started-at="2019-11-16T18:17:41Z" data-provider="SearchProvider" finished-at="2019-11-16T18:17:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="testMethodB" duration-ms="3154" started-at="2019-11-16T18:17:44Z" data-provider="SearchProvider" finished-at="2019-11-16T18:17:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Russia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:com.datadriven.HalfEbayTest@ae45eb6]" name="testMethodB" duration-ms="3155" started-at="2019-11-16T18:17:47Z" data-provider="SearchProvider" finished-at="2019-11-16T18:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+      </class> <!-- com.datadriven.HalfEbayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
